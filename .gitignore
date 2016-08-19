@@ -1,3 +1,5 @@
+*.cexe
+
 # Object files
 *.o
 *.ko
