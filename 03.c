@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "head.h"
 #include <math.h>
 
 void fun()
@@ -17,6 +17,7 @@ void fun()
 
 int main()
 {
+	//OPEN_URL(__FILE__);
 	fun();
 	return 0;
 }

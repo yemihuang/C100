@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "head.h"
 
 void fun(int year,int month,int day)
 {
@@ -72,6 +72,7 @@ void fun(int year,int month,int day)
 }
 int main()
 {
+	//OPEN_URL(__FILE__);
 	fun(2000,10,13);
 	fun(1900,10,1);
 	return 0;

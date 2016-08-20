@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "head.h"
+
 void fun(int x, int y, int z)
 {
     int t;
@@ -26,6 +27,7 @@ void fun(int x, int y, int z)
 
 int main()
 {
+    //OPEN_URL(__FILE__);
     fun(7897,1233,5644);
     return 0;
 }
