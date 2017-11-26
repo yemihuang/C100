@@ -6,7 +6,7 @@ void fun(int score)
     {
         printf("A\n");
     } 
-    else if (60<=score&&score<89)
+    else if (60<=score&&score<=89)
     {
         printf("B\n");
     }

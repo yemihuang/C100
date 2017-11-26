@@ -4,7 +4,7 @@
 void fun(int a[N][N])
 {
 	int sum = 0;
-	
+
 	for (int i = 0; i < N; ++i)
 	{
 		sum += a[i][i];
@@ -25,6 +25,6 @@ int main()
 		}
 	}
 	fun(a);
-	
+
 	return 0;
 }

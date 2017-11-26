@@ -17,7 +17,7 @@ void fun(char str[])
 
 int main()
 {
-	//OPEN_URL(__FILE__);
+	OPEN_URL(__FILE__);
 	char str[32];
 	
 	scanf("%s", str);

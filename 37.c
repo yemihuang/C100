@@ -1,10 +1,15 @@
 #include "head.h"
 #define N 10
-
-void fun(int a[])
+void fun()
 {
-	int k;
+	int a[N];
+	printf("请输入 10 个数字：\n");
+	for (int i = 0; i < N; ++i)
+	{
+		scanf("%d", &a[i]);
+	}
 
+	int k;
 	for (int i = 0; i < N-1; ++i)
 	{
 		int min = i;
@@ -26,21 +31,13 @@ void fun(int a[])
 
 	for (int i = 0; i < N; ++i)
 	{
-		printf("%d\n", a[i]);
+		printf("%d", a[i]);
 	}
 }
 
 int main()
 {
 	//OPEN_URL(__FILE__);	
-	int a[N];
-
-	printf("请输入 10 个数字：\n");
-	for (int i = 0; i < N; ++i)
-	{
-		scanf("%d", &a[i]);
-	}
-
-	fun(a);
+	fun();
 	return 0;
 }

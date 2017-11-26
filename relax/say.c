@@ -10,7 +10,7 @@ void say()
 	while (1)
 	{
 		int count = 1;
-		//scanf("%d", &count);
+		scanf("%d", &count);
 		scanf("%s", message);
 		str[4] = 0;
 		for (int i = 0; i < count; ++i)
